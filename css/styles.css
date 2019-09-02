@@ -1,0 +1,259 @@
+
+
+html {
+	font-size: 0;
+}
+
+body {
+	background-color: #f8f8f8;
+}
+
+em {
+	font-style: normal !important;
+}
+
+header {
+	height: 100vh;
+	background-image: url('../img/01a.jpg');
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+header .overlay {
+	background-color: rgba(0,0,0,.5);
+	height: 100vh;
+}
+
+header nav {
+	background-color: #fdb61f;
+	padding: 0 10vw;
+}
+
+header .brand-logo img {
+	width: 60px;
+}
+
+ul img{
+	width: 100px;
+	margin: 30px 10px 30px 25px;
+
+}
+
+header .wlc-note .highlighter {
+	border-left: 8px solid #fdb61f;
+	padding-left: 20px;
+	width: 100%;
+}
+
+header .wlc-note {
+	padding: 25vh 5vw 5vh 10vw;
+}
+
+header .wlc-note .btn {
+			margin: 10px 0;
+			padding: 10px 40px 10px 40px;
+			background-color: #fdb61f;
+			height: 100%;
+			border-radius: 50px;
+		}
+
+header .notice {
+	background-color: #302f2f;
+	padding: 5vh 5vw 5vh 5vw;
+	margin-top: 5vw;
+	margin-right: 5vw;
+
+}
+
+header .notice img {
+	width: 10vw;
+}
+
+header .col {
+	padding: 0 !important;
+}
+
+.update {
+	background-color: #302f2f;
+	padding: 10vh 5vw;
+
+}
+
+.update img {
+	width: 30vw;
+}
+
+#about {
+	height: 80vh;
+}
+
+#about .img-bg2 {
+	background-image: url('../img/b3.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 70vh;
+	padding: 0 !important;
+}
+
+#about .overlay2 {
+	background-color: rgba(0,0,0,.3);
+	height: 100%;
+}
+
+#about .write {
+	height: 38vh;
+}
+
+.line {
+	padding: 4px 20px;
+	width: 100px;
+	background-color: #fdb61f;
+}
+
+#about .about-igpes {
+	padding: 5vh 5vw;
+}
+
+#about .coat .col {
+	padding: 0 !important;
+}
+
+#about .est {
+	background-color: #fdb61f;
+}
+
+#about .pro {
+	background-color: #302f2f;
+}
+
+#projects {
+	padding: 10vh 0;
+}
+
+#projects article .btn {
+	margin: 10px 0;
+	padding: 10px 40px 10px 40px;
+	background-color: #fdb61f;
+	height: 100%;
+	border-radius: 50px;
+}
+
+#projects .pix {
+	padding-top: 4vh;
+}
+
+
+#projects .pics img {
+	width: 15vw;
+}
+
+#projects .pics p {
+	width: 200px;
+}
+
+#projects .pics h6 {
+	color: #fdb61f;
+}
+
+
+
+#services .row {
+	margin-bottom: 0;
+}
+
+#services .writeup {
+	background-color: #302f2f;
+	padding: 5vh 4vw;
+	height: 80vh;
+}
+
+#services li {
+	padding: 2vh 0;
+}
+
+#services .img-bg3 {
+	background-image: url('../img/b2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+	padding: 0;
+}
+
+#services .overlay3 {
+	background-color: rgba(0,0,0,.3);
+	height: 100%;
+}
+
+footer {
+	background-color: #302f2f;
+	padding: 20px 2vw;
+	border-top: 4px solid #fdb61f;
+}
+
+footer .abt {
+	padding: 0 2vw !important;
+}
+
+footer .addr {
+	padding: 2vh 2vw 0 2vw !important;
+}
+
+footer .mail {
+	color: #fff;
+}
+
+footer .material-icons {
+	color: #fdb61f !important;
+}
+
+footer li {
+	padding: 4px 0;
+}
+
+@media screen and (max-width: 992px) {
+	#projects .pics img {
+	width: 40vw;
+}
+
+#about .write {
+	height: 38vh;
+}
+
+#about .about-igpes {
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+.est {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 100%;
+}
+.pro {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 100%;
+}
+#projects {
+	padding: 10vh 0;
+}
+.hide-mobile {
+	visibility: hidden;
+}
+}
+
+@media screen and (min-width: 998px) {
+.show-mobile-only {
+	visibility: hidden;
+}
+
+.update {
+	height: 0;
+	padding: 0;
+}
+.update .col {
+	height: 0;
+}
+}
